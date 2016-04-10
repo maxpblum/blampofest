@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 const App = React.createClass({
   render() {
-    return <span>Hello world!</span>
+    return <img src={require('./silliness.jpg')}>Hello world!</img>
   }
 })
 

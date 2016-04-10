@@ -18,7 +18,10 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
-      }
+      },
+      { test: /.svg$/, loaders: ['url-loader?mimetype=image/svg+xml'] },
+      { test: /.png$/, loaders: ['url-loader?mimetype=image/png'] },
+      { test: /.jpe?g$/, loaders: ['url-loader?mimetype=image/jpg'] },
     ]
   },
   output: {
