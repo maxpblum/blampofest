@@ -1,0 +1,22 @@
+{
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-unused-vars": 2,
+    "semi": 0,
+    "react/jsx-uses-react": 2, // Prevent React to be incorrectly marked as unused
+    "react/jsx-uses-vars": 2 // Prevent variables used in JSX to be incorrectly marked as unused
+  }
+}
