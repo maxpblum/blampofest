@@ -1,18 +1,14 @@
-var path = require("path");
+const path = require('path')
 
 module.exports = {
-  context: __dirname,
-  entry: "./src/index.jsx",
+  debug: true,
   devServer: {
     contentBase: './build',
     port: 9000,
     https: false,
   },
-  output: {
-    path: path.resolve(__dirname, "build"),
-    publicPath: "/assets/",
-    filename: "bundle.js"
-  },
+  devtool: 'eval-source-map',
+  entry: './src/index',
   module: {
     loaders: [
       {
@@ -23,14 +19,16 @@ module.exports = {
           presets: ['es2015', 'react']
         }
       },
-      { test: /\.css$/, loader: "style-loader!css-loader" },
       { test: /.svg$/, loaders: ['url-loader?mimetype=image/svg+xml'] },
       { test: /.png$/, loaders: ['url-loader?mimetype=image/png'] },
       { test: /.jpe?g$/, loaders: ['url-loader?mimetype=image/jpg'] },
     ]
   },
-  devtool: 'source-maps',
+  output: {
+    path: path.resolve(__dirname, 'build'),
+    filename: '[name].js',
+  },
   resolve: {
-   extensions: ["", ".js", ".jsx" ]
+    extensions: ['', '.js', '.jsx']
   }
-};
+}

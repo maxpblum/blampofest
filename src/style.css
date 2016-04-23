@@ -1,0 +1,72 @@
+.group:after{
+  clear: both;
+  content: "";
+  display: none;
+}
+
+html, body, section, form, ul,
+li, article, header,
+h1, h2, h3, h4, p, select, option,
+input, button, label, div, textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+
+  text-align: inherit;
+  text-decoration: inherit;
+  font: inherit;
+  vertical-align: inherit;
+  color: inherit;
+
+  background: transparent;
+}
+
+body {
+  background: lightblue;
+  font-family: sans-serif;
+}
+
+.content {
+  width: 900px;
+  margin: auto;
+}
+
+.content > h1 {
+  padding: 10px;
+  text-align: center;
+  color: darkblue;
+  font-size: 56px;
+}
+
+.information {
+  float: right;
+  margin: 10px;
+}
+
+.type-info {
+  font-weight: bold;
+  margin: 35px 5px 15px 5px;
+  width: 400px;
+  font-size: 24px;
+  text-align: center;
+  display: block;
+}
+
+.info {
+  font-weight: normal;
+  margin: 5px;
+  width: 400px;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
+
+.silly-photo {
+  margin: 10px;
+  float: left;
+  border: 1px solid lightyellow;
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+}
