@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Route, Link, hashHistory } from 'react-router'
+import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router'
 
 var App = require('../components/app')
 var About = require('../components/about')
@@ -14,7 +14,7 @@ var router = (
   <Router history={hashHistory}>
 
     <Route path="/" component={App} >
-      <Route path="about" component={About} />
+      <IndexRoute component={About} />
       <Route path="accommodations" component={Accommodations} />
       <Route path="registry" component={Registry} />
     </Route>
