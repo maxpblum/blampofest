@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './style.css'
+// import './style.css'
 
 const App = React.createClass({
   render() {
@@ -47,8 +47,8 @@ const App = React.createClass({
 //   </label>
 // </p>
 
-const appDiv = document.createElement('div')
-appDiv.id = 'app'
-document.body.appendChild(appDiv)
+// const appDiv = document.createElement('div')
+// appDiv.id = 'app'
+// document.body.appendChild(appDiv)
 
 ReactDOM.render(<App/>, document.getElementById('app'))

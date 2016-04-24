@@ -2,16 +2,15 @@ var path = require("path");
 
 module.exports = {
   context: __dirname,
-  entry: "./src/index.jsx",
+  entry: "./frontend/src/index.jsx",
   devServer: {
     contentBase: './build',
     port: 9000,
     https: false,
   },
   output: {
-    path: path.resolve(__dirname, "build"),
-    publicPath: "/assets/",
-    filename: "bundle.js"
+    path: path.join(__dirname, 'app', 'assets', 'javascripts', 'build'),
+    filename: "bundle.js",
   },
   module: {
     loaders: [
