@@ -5,7 +5,7 @@ import './style.css'
 const App = React.createClass({
   render() {
     return <div className="content group">
-        <h1>Gigi and Max are getting married!</h1>
+        <h1><span className="names">Gigi and Max</span> are getting married!</h1>
         <img className="silly-photo" src={require('./cute_at_wedding.jpg')} />
         <p className="information group">
           <label className="type-info">Saturday, October 15, 2016</label>

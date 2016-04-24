@@ -1,3 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento|Chelsea+Market|PT+Sans+Narrow);
+
+/*font-family: 'Sacramento', cursive;*/
+
+/*font-family: 'Chelsea Market', cursive;*/
+
+/*font-family: 'PT Sans Narrow', sans-serif;*/
+
 .group:after{
   clear: both;
   content: "";
@@ -24,7 +32,7 @@ input, button, label, div, textarea {
 
 body {
   background: lightblue;
-  font-family: sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .content {
@@ -36,7 +44,13 @@ body {
   padding: 10px;
   text-align: center;
   color: darkblue;
-  font-size: 56px;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 36px;
+}
+
+.names {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.4em;
 }
 
 .information {
