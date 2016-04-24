@@ -41,6 +41,7 @@ body {
   background: #F2FCFF;
   width: 900px;
   margin: auto;
+  padding: 20px 0;
 }
 
 .content > h1 {
@@ -50,20 +51,29 @@ body {
   font-size: 36px;
 }
 
+.column {
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .names {
   font-family: 'Sacramento', cursive;
   font-size: 1.4em;
 }
 
-.information {
-  float: right;
-  margin: 10px;
-}
-
 .type-info {
   font-weight: bold;
   margin: 35px 5px 15px 5px;
-  width: 400px;
   font-size: 24px;
   text-align: center;
   display: block;
@@ -72,17 +82,15 @@ body {
 .info {
   font-weight: normal;
   margin: 5px;
-  width: 400px;
   font-size: 20px;
   text-align: center;
   display: block;
 }
 
 .silly-photo {
-  margin: 10px;
-  float: left;
+  display: block;
   border: 1px solid lightyellow;
   border-radius: 20px;
-  width: 400px;
   height: auto;
+  width: 100%;
 }
