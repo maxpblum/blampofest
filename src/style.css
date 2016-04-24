@@ -33,10 +33,12 @@ input, button, label, div, textarea {
 
 body {
   background: lightblue;
+  color: #5D5D82;
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .content {
+  background: #F2FCFF;
   width: 900px;
   margin: auto;
 }
@@ -44,7 +46,6 @@ body {
 .content > h1 {
   padding: 10px;
   text-align: center;
-  color: darkblue;
   font-family: 'Chelsea Market', cursive;
   font-size: 36px;
 }
