@@ -8,8 +8,9 @@
 
 .group:after{
   clear: both;
-  content: "";
-  display: none;
+  content: " ";
+  display: block;
+  height: 0;
 }
 
 html, body, section, form, ul,
