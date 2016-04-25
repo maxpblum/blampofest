@@ -1,7 +1,8 @@
 {
   "name": "blampofest",
   "author": "max.blum@gmail.com",
-  "devDependencies": {
+  "dependencies": {
+    "react-router": "^2.3.0",
     "babel-core": "^6.7.4",
     "babel-eslint": "^6.0.2",
     "babel-loader": "^6.2.4",
@@ -18,9 +19,6 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "react-router": "^2.3.0"
   },
   "engines": {
    "node": "5.10.1",
