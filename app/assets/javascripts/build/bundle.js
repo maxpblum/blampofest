@@ -25352,7 +25352,7 @@
 	            { href: 'http://www.bikezonecapecod.com/' },
 	            'Rent bikes!'
 	          ),
-	          'We recommend renting bikes for the weekend! Biking is a great way to get around the beaches and shops of Hyannis Port and Hyannis.'
+	          'we recommend renting bikes for the weekend! Biking is a great way to get around the beaches and shops of Hyannis Port and Hyannis.'
 	        )
 	      )
 	    );

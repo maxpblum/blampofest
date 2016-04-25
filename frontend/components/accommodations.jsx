@@ -47,7 +47,7 @@ const Accommodations = React.createClass({
 
      <li className="house-option">
        <a href="http://www.bikezonecapecod.com/">Rent bikes!</a>
-       We recommend renting bikes for the weekend! Biking is a great way to get around the beaches and shops of Hyannis Port
+       we recommend renting bikes for the weekend! Biking is a great way to get around the beaches and shops of Hyannis Port
        and Hyannis.
      </li>
 
