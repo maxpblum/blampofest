@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom'
 const About = React.createClass({
 
   render() {
-    console.log('we are in about render')
 
     return(
     <div className="content group">
+
 
       <h1><span className="names">Gigi and Max</span> are getting married!</h1>
 

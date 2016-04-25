@@ -16,7 +16,7 @@
 html, body, section, form, ul,
 li, article, header,
 h1, h2, h3, h4, p, select, option,
-input, button, label, div, textarea {
+input, button, label, div, textarea, a {
   margin: 0;
   border: 0;
   padding: 0;
@@ -35,6 +35,10 @@ body {
   background: lightblue;
   color: #5D5D82;
   font-family: 'PT Sans Narrow', sans-serif;
+}
+
+ul {
+  list-style: none;
 }
 
 .content {
@@ -93,4 +97,60 @@ body {
   border-radius: 20px;
   height: auto;
   width: 100%;
+}
+
+.registry {
+  text-align: center;
+  color: darkblue;
+  padding: 0 20px;
+}
+.luna-photo {
+  margin: auto;
+  border-radius: 20px;
+  display: block;
+  height: auto;
+  width: 70%;
+}
+
+
+.tabs {
+  width: 600px;
+  margin: auto;
+  padding: 5px 0;
+  text-align: center;
+}
+
+
+.root-tab {
+  display: block;
+  width: auto;
+  box-sizing: border-box;
+  border-right: 1px dashed lightblue;
+  text-align: center;
+  font-weight: lighter;
+  width: 200px;
+  float: left;
+}
+
+.root-tab:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.intro {
+  margin: 20px 40px;
+}
+
+.house-option {
+  margin: 10px 40px;
+  width: 70%;
+}
+
+.house-option > a {
+  display: block;
+  color: darkblue;
+  font-weight: bold;
+}
+.house-option > a:hover {
+  font-weight: bolder;
 }
