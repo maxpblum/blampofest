@@ -7184,3 +7184,12 @@ Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-24 20:14:06 -0400
+
+
+Started GET "/" for ::1 at 2016-04-24 21:11:00 -0400
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 606ms (Views: 594.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-b29ea173436087f80cdfe96d38641706a1d1d2f20e96c66c17148f10bb5a28d3.css?body=1" for ::1 at 2016-04-24 21:11:01 -0400
