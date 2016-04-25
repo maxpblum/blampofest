@@ -32,8 +32,8 @@ input, button, label, div, textarea, a {
 }
 
 body {
-  background: lightblue;
-  color: #5D5D82;
+  background: #691B1B;
+  color: #775837;
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -41,8 +41,12 @@ ul {
   list-style: none;
 }
 
+a { color: #EF6828; }
+
+a:hover { color: #FBF3DD; }
+
 .content {
-  background: #F2FCFF;
+  background: #FBF3DD;
   width: 900px;
   margin: auto;
   padding: 20px 0;
@@ -101,11 +105,11 @@ ul {
 
 .registry {
   text-align: center;
-  color: darkblue;
+  color: #775837;
   padding: 0 20px;
 }
 .luna-photo {
-  margin: auto;
+  margin: 10px auto auto;
   border-radius: 20px;
   display: block;
   height: auto;
@@ -125,7 +129,6 @@ ul {
   display: block;
   width: auto;
   box-sizing: border-box;
-  border-right: 1px dashed lightblue;
   text-align: center;
   font-weight: lighter;
   width: 200px;
@@ -134,7 +137,6 @@ ul {
 
 .root-tab:hover {
   cursor: pointer;
-  color: red;
 }
 
 .intro {
@@ -148,9 +150,9 @@ ul {
 
 .house-option > a {
   display: block;
-  color: darkblue;
   font-weight: bold;
 }
 .house-option > a:hover {
   font-weight: bolder;
+  color: #691B1B;
 }
