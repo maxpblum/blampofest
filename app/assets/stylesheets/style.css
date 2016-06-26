@@ -156,3 +156,20 @@ a:hover { color: #FBF3DD; }
   font-weight: bolder;
   color: #691B1B;
 }
+
+.registry {
+  width: 75%;
+  margin: auto;
+}
+
+.registry-item {
+  background: lightblue;
+  font-size: larger;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid darkblue;
+  color: darkblue;
+  cursor: pointer;
+}
