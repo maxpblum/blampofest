@@ -7,12 +7,8 @@ const Registry = React.createClass({
       <div className="registry">
         First and foremost, what we want from you is for
         you to come to our wedding and have a blast!
-        If you insist on getting us a gift, then please head over to
-        Animal Lighthouse Rescue (the folks who brought us our dear girl Luna)
-        and make a donation in her little pup name (and maybe adopt one of her pup friends!).
-        Or if you'd prefer to purchase something for
-        direct usage in the Blampo household, then please feel
-        free to check out our wish lists below!
+        If you insist on getting us a gift, then please feel
+        free to check out our wish lists below! 
         <br/>
         <br/>
         <a className="registry-item" href="http://www.alrcares.com/">
@@ -30,7 +26,7 @@ const Registry = React.createClass({
 
         <br/>
         <br/>
-        Finally, as a reward for making it this far, please enjoy this ridiculous picture of Luna lounging at work with Max:
+        Finally, please enjoy this ridiculous picture of Luna lounging at work with Max:
         <img className="luna-photo" src={require('./lunaridiculous.jpg')} />
       </div>
 

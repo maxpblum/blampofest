@@ -25602,7 +25602,7 @@
 	        ),
 	        _react2.default.createElement('br', null),
 	        _react2.default.createElement('br', null),
-	        'Finally, as a reward for making it this far, please enjoy this ridiculous picture of Luna lounging at work with Max:',
+	        'Finally, please enjoy this ridiculous picture of Luna lounging at work with Max:',
 	        _react2.default.createElement('img', { className: 'luna-photo', src: __webpack_require__(226) })
 	      )
 	    );
