@@ -26,11 +26,7 @@ const Registry = React.createClass({
 
         <br/>
         <br/>
-<<<<<<< HEAD
         Finally, please enjoy this ridiculous picture of Luna lounging at work with Max:
-=======
-        Finally, as a reward for making it this far, please enjoy this ridiculous picture of Luna lounging at work with Max:
->>>>>>> 183582568835aa1becbdc1d3956e9b521775d78e
         <img className="luna-photo" src={require('./lunaridiculous.jpg')} />
       </div>
 
