@@ -141,6 +141,7 @@ a:hover { color: #FBF3DD; }
   display: block;
   font-weight: bold;
 }
+
 .house-option > a:hover {
   font-weight: bolder;
   color: #691B1B;
@@ -190,33 +191,62 @@ a:hover { color: #FBF3DD; }
 
 /* WEDDING PARTY */
 
+.party-member {
+  margin: 15px 0;
+  color: #691B1B;
+}
+
 .party h2 {
-  background-color: gold;
+  color: #EF6828;
   text-align: center;
-  font-size: larger;
+  font-size: x-large;
 }
 
 .party h3 {
-  background-color: green;
-}
-
-.party-member {
-  background-color: red;
+  font-size: larger;
+  float: right;
+  margin-left: 5px;
+  width: calc(100% - 105px);
 }
 
 .party-member img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 60px;
-
+  float: left;
+  box-sizing: border-box;
 }
 
-
 .party-member p {
-  background-color: pink;
+  margin-left: 5px;
+  float: right;
+  display: none;
+  width: calc(100% - 105px);
+}
+
+.groomsmen img {
+  float: right;
+}
+
+.groomsmen p {
+  float: left;
+  text-align: right;
+}
+
+.groomsmen h3 {
+  text-align: right;
+  float: left;
+}
+
+.party-member:hover > img {
+  border: 2px solid gold;
+}
+
+.party-member:hover > p {
+  display: block;
 }
 
 .party-shared {
-  background-color: lightblue;
-  text-align: center;
+  margin: 25px auto;
+  width: 25%;
 }

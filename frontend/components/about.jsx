@@ -12,7 +12,7 @@ const About = React.createClass({
       <h1><span className="names">Gigi and Max</span> are getting married!</h1>
 
       <div className="column left">
-        <img className="silly-photo" src={require('./cute_at_wedding.jpg')} />
+        <img className="silly-photo" src={require('../photos/cute_at_wedding.jpg')} />
       </div>
 
       <div className="column right">

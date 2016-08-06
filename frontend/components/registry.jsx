@@ -27,7 +27,7 @@ const Registry = React.createClass({
         <br/>
         <br/>
         Finally, please enjoy this ridiculous picture of Luna lounging at work with Max:
-        <img className="luna-photo" src={require('./lunaridiculous.jpg')} />
+        <img className="luna-photo" src={require('../photos/lunaridiculous.jpg')} />
       </div>
 
     </div>
