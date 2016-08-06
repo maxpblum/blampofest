@@ -49,6 +49,10 @@ a:hover { color: #FBF3DD; }
 
 /* LANDING PAGE */
 
+.current {
+  border-bottom: 1px solid gold;
+}
+
 .content {
   background: #FBF3DD;
   width: 80%;
@@ -185,8 +189,11 @@ a:hover { color: #FBF3DD; }
 }
 
 /* WEDDING PARTY */
+
 .party h2 {
   background-color: gold;
+  text-align: center;
+  font-size: larger;
 }
 
 .party h3 {

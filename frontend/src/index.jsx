@@ -16,6 +16,7 @@ var router = (
 
     <Route path="/" component={App} >
       <IndexRoute component={About} />
+      <Route path="about" component={About} />
       <Route path="party" component={Party} />
       <Route path="accommodations" component={Accommodations} />
       <Route path="registry" component={Registry} />
