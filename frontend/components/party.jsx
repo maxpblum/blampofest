@@ -17,6 +17,11 @@ const App = React.createClass({
                 <p>Gigi's sister</p>
               </li>
               <li className="party-member group">
+                <img src={require('../photos/rebecca.png')}/>
+                <h3>Rebecca Blum</h3>
+                <p>Gigi's soon-to-be sister-in-law</p>
+              </li>
+              <li className="party-member group">
                 <img src={require('../photos/sally1.png')}/>
                 <h3>Sally Merwin</h3>
                 <p>Gigi's cousin</p>
@@ -25,11 +30,6 @@ const App = React.createClass({
                 <img src={require('../photos/sarah.png')}/>
                 <h3>Sarah Groves</h3>
                 <p>Gigi's cousin</p>
-              </li>
-              <li className="party-member group">
-                <img src={require('../photos/rebecca.png')}/>
-                <h3>Rebecca Blum</h3>
-                <p>Gigi's soon-to-be sister-in-law</p>
               </li>
               <li className="party-member group">
                 <img src={require('../photos/abby.png')}/>
