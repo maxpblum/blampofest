@@ -12,6 +12,7 @@ const App = React.createClass({
           <li className="root-tab"><Link to={'party'}  activeClassName="current">Wedding Party</Link></li>
           <li className="root-tab"><Link to={'accommodations'}  activeClassName="current">Accommodations and Travel</Link></li>
           <li className="root-tab"><Link to={'registry'}  activeClassName="current">Registry</Link></li>
+          <li className="root-tab"><Link to={'rsvp'}  activeClassName="current">RSVP</Link></li>
         </nav>
         {this.props.children}
       </div>

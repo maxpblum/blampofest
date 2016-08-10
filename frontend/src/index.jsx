@@ -7,6 +7,7 @@ var About = require('../components/about')
 var Accommodations = require('../components/accommodations')
 var Registry = require('../components/registry')
 var Party = require('../components/party')
+var Rsvp = require('../components/rsvp')
 
 
 
@@ -20,6 +21,7 @@ var router = (
       <Route path="party" component={Party} />
       <Route path="accommodations" component={Accommodations} />
       <Route path="registry" component={Registry} />
+      <Route path="rsvp" component={Rsvp} />
     </Route>
 
   </Router>
