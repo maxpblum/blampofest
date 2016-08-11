@@ -14,6 +14,6 @@ class Api::ResponsesController < ApplicationController
 
   private
   def response_params
-    params.require(:response).permit(:first_name, :last_name, :attending)
+    params.require(:response).permit(:first_name, :last_name, :attending, :comments)
   end
 end

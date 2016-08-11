@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const Rsvp = React.createClass({
   getInitialState () {
-    return ({ first_name: "", last_name: "", attending: false})
+    return ({ first_name: "", last_name: "", attending: "", comments: ""})
   },
 
   updateFirst (event) {
@@ -18,42 +18,76 @@ const Rsvp = React.createClass({
     this.setState({attending: event.currentTarget.value});
   },
 
-  submitInfo (event) {
-    event.preventDefault();
+  updateComments (event) {
+    this.setState({comments: event.currentTarget.value});
+  },
+
+  makeAjax(info, callback) {
     $.ajax({
       url: "api/responses",
       method: "post",
-      data: {response: this.state},
-      success: function (el) {
-        debugger
+      data: {response: info},
+      success: function (response) {
+        callback();
+        alert("Thanks for your rsvp, " + response.first_name + "!");
+      },
+      error: function (error) {
+        alert("Sorry, there was a problem processing your RSVP! Have you entered in your full name and whether you're attending?");
       }
-    })
+    });
   },
+
+  submitInfo (event) {
+    event.preventDefault();
+    this.makeAjax(this.state, this._clearInputs);
+  },
+
+  _clearInputs () {
+    this.setState({first_name: "", last_name: "", attending: "", comments: ""});
+  },
+
   render () {
     return (<div className="content">
-      <form onSubmit={this.submitInfo}>
-        <label for="firstName" />
-        First Name
-        <input
-          id="firstName"
-          type="text"
-          value={this.state.firstName}
-          onChange={this.updateFirst}/>
-        <label for="lastName" />
-          Last Name
-        <input
-          id="lastName"
-          type="text"
-          value={this.state.lastName}
-          onChange={this.updateLast}
-          />
-        <label for="attending"/>
-        Are you coming? Check if yes!
-        <input type="checkbox"
-          value="true"
-          id="attending"
-          onChange={this.updateAttending} />
-        <button>submit</button>
+      <form onSubmit={this.submitInfo} className="rsvp-form group">
+        <label className="group">
+          <h3 className="field-title">First Name</h3>
+          <input
+            className="response"
+            type="text"
+            value={this.state.first_name}
+            onChange={this.updateFirst}/>
+        </label>
+
+        <label className="group">
+          <h3 className="field-title">Last Name</h3>
+          <input
+            className="response"
+            type="text"
+            value={this.state.last_name}
+            onChange={this.updateLast}
+            />
+        </label>
+
+        <label className="group">
+          <h3 className="field-title">Are you coming?</h3>
+          <input type="radio"
+            name="attending"
+            value="true"
+            onChange={this.updateAttending} /> Yes!
+          <input type="radio"
+            name="attending"
+            value="false"
+            onChange={this.updateAttending} /> No!
+        </label>
+
+        <label className="group">
+          <h3 className="field-title">Comments/ Questions?</h3>
+          <textarea
+            placeholder="Where are you staying? Can you offer anyone a ride up?"
+            onChange={this.updateComments} />
+        </label>
+
+        <button>RSVP!</button>
 
       </form>
     </div>);

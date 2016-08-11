@@ -45,7 +45,7 @@ ul {
 
 a { color: #EF6828; }
 
-a:hover { color: #FBF3DD; }
+.root-tab > a:hover { color: #FBF3DD; }
 
 /* LANDING PAGE */
 
@@ -129,23 +129,34 @@ a:hover { color: #FBF3DD; }
 
 .intro {
   margin: 20px 40px;
+  font-size: large;
 }
 
 /*ACCOMMODATIONS*/
+.house-header {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+}
 
 .house-option {
   margin: 10px 40px;
-  width: 70%;
+  width: 75%;
 }
 
-.house-option > a {
+.house-option > h3 {
   display: block;
   font-weight: bold;
+  color: #EF6828;
 }
 
-.house-option > a:hover {
+.house-option > p {
+  width: 100%;
+}
+
+.house-option:hover  {
   font-weight: bolder;
-  color: #691B1B;
 }
 
 
@@ -250,4 +261,62 @@ a:hover { color: #FBF3DD; }
 .party-shared {
   margin: 25px auto;
   width: 25%;
+}
+
+/* RSVP */
+.rsvp-form {
+  font-size: larger;
+  width: 40%;
+  margin: auto;
+}
+
+.rsvp-form > label {
+  margin: 15px 0;
+  display: block;
+}
+
+.field-title {
+  float: left;
+  width: 45%;
+}
+
+.response {
+  background-color: white;
+  float: left;
+  width: 55%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+input[type="radio"] {
+  margin-left: 20px;
+}
+
+textarea {
+  font-size: smaller;
+  background-color: white;
+  float: left;
+  width: 55%;
+  height: 75px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.rsvp-form > button {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  margin: auto;
+  background: #691B1B;
+  color: gold;
+  border: 1px solid #775837;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.rsvp-form > button:hover {
+  background-color: #f7673e;
+  color: darkblue;
 }
