@@ -84,7 +84,8 @@ const Rsvp = React.createClass({
           <h3 className="field-title">Comments/ Questions?</h3>
           <textarea
             placeholder="Where are you staying? Can you offer anyone a ride up?"
-            onChange={this.updateComments} />
+            onChange={this.updateComments}
+            value={this.state.comments} />
         </label>
 
         <button>RSVP!</button>
