@@ -34,7 +34,7 @@ const About = React.createClass({
             </label>
 
           <label className="type-info">Attire</label>
-            <label className="info">Semiformal</label>
+            <label className="info">Festive</label>
         </p>
       </div>
     </div>)
