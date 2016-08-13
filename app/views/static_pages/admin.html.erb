@@ -1,0 +1,14 @@
+
+<div class="content">
+  <h1>RSVPs</h1>
+  <ol>
+  <% @responses.each do |response| %>
+    <li>
+    <h3><i>Name: </i> <%= response.first_name %> <%= response.last_name %></h3>
+    <h3><i>Attending?: </i><%= response.attending %></h3>
+    <h3><i>Other comments?: </i><%= response.comments %></h3>
+    <hr/>
+  </li>
+  <% end %>
+</ol>
+</div>

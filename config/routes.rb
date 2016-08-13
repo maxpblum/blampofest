@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   namespace :api do
     resources :responses, only: [:create, :index]
   end
+
+  get "/admin", to: "static_pages#admin"
 end
