@@ -23,14 +23,16 @@ const About = React.createClass({
             <label className="info">
               Union Chapel <br />
               15 Wachusett Ave<br />
-              Hyannis Port, MA
+              Hyannis Port, MA<br />
+              5:00 pm
             </label>
 
           <label className="type-info">Reception</label>
             <label className="info">
               The Hyannis Port Club<br />
               2 Irving Ave<br />
-              Hyannis Port, MA
+              Hyannis Port, MA<br />
+              6:00 pm
             </label>
 
           <label className="type-info">Attire</label>
