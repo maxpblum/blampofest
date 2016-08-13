@@ -64,7 +64,7 @@ const App = React.createClass({
                 <p>Max's other soon-to-be brother-in-law</p>
               </li>
               <li className="party-member groomsmen group">
-                <img src={require('../photos/nuffer.png')}/>
+                <img src={require('../photos/nuffer.jpg')}/>
                 <h3>Dan Nuffer</h3>
                 <p>Max's close friend from high school</p>
               </li>
