@@ -1,14 +1,28 @@
 
 <div class="content">
   <h1>RSVPs</h1>
+
+  <h2>Attending!</h2>
   <ol>
-  <% @responses.each do |response| %>
-    <li>
-    <h3><i>Name: </i> <%= response.first_name %> <%= response.last_name %></h3>
-    <h3><i>Attending?: </i><%= response.attending %></h3>
-    <h3><i>Other comments?: </i><%= response.comments %></h3>
-    <hr/>
-  </li>
-  <% end %>
-</ol>
+    <% @yeses.each do |response| %>
+      <li>
+        <h3><i>Name: </i> <%= response.first_name %> <%= response.last_name %></h3>
+        <h3><i>Attending?: </i><%= response.attending %></h3>
+        <h3><i>Other comments?: </i><%= response.comments %></h3>
+        <hr/>
+      </li>
+    <% end %>
+  </ol>
+
+  <h2>Not attending</h2>
+  <ol>
+    <% @nos.each do |response| %>
+      <li>
+        <h3><i>Name: </i> <%= response.first_name %> <%= response.last_name %></h3>
+        <h3><i>Attending?: </i><%= response.attending %></h3>
+        <h3><i>Other comments?: </i><%= response.comments %></h3>
+        <hr/>
+      </li>
+    <% end %>
+  </ol>
 </div>

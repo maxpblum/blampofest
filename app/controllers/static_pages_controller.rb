@@ -3,6 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def admin
-    @responses = Response.all.order("attending")
+    @yeses = Response.where(attending: true)
+    @nos = Response.where(attending: false)
   end
 end
