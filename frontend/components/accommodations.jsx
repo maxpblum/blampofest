@@ -67,7 +67,7 @@ const Accommodations = React.createClass({
 
      <li className="house-option">
        <h3>
-         <a href="https://www.vrbo.com/vacation-rentals/usa/massachusetts/cape-cod/hyannis-port?from-date=2016-10-14&to-date=2016-10-16&utm_source=cj&utm_medium=affiliates&utm_content=7985471&utm_campaign=10859114_skim2866X1544542Xf823881366690e516ee40bb31118a4cb">
+         <a href="https://www.vrbo.com/">
            Hyannis Port house rentals
          </a>
        </h3>

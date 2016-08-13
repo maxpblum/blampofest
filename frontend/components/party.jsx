@@ -46,7 +46,7 @@ const App = React.createClass({
               <li className="party-member groomsmen group">
                 <img src={require('../photos/adam.png')}/>
                 <h3>Best Man: Adam Bildersee</h3>
-                <p>Max's close friend from college</p>
+                <p>Max's close friend from Yale</p>
               </li>
               <li className="party-member groomsmen group">
                 <img src={require('../photos/jon.png')}/>
