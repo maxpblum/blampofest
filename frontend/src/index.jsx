@@ -25,8 +25,9 @@ var router = (
     </Route>
 
   </Router>
-)
+);
 
 
-
-ReactDOM.render(router, document.getElementById('app'))
+document.addEventListener("DOMContentLoaded", function () {
+  ReactDOM.render(router, document.getElementById('app'));
+});
