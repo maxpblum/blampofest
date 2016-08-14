@@ -29,7 +29,7 @@ const About = React.createClass({
 
           <label className="type-info">Reception</label>
             <label className="info">
-              The Hyannis Port Club<br />
+              Hyannisport Club<br />
               2 Irving Ave<br />
               Hyannis Port, MA<br />
               6:00 pm

@@ -78,7 +78,7 @@ const App = React.createClass({
           <span className="party-member group">
             <img src={require('../photos/danmeyer.png')}/>
             <h3>Dan Meyer</h3>
-            <p>Friend of the couple's from Williams and NYC</p>
+            <p>Friend of the couple from Williams and NYC</p>
           </span>
         </div>
 

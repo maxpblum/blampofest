@@ -81,9 +81,9 @@ const Rsvp = React.createClass({
         </label>
 
         <label className="group">
-          <h3 className="field-title">Comments/ Questions?</h3>
+          <h3 className="field-title">Comments, questions?</h3>
           <textarea
-            placeholder="Where are you staying? Can you offer anyone a ride up?"
+            placeholder="e.g. 'WE LOVE LUNA!'"
             onChange={this.updateComments}
             value={this.state.comments} />
         </label>
