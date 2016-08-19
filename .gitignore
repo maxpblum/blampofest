@@ -5,4 +5,4 @@ tmp/*
 app/assets/javascripts/build/bundle.js
 app/assets/javascripts/build/bundle.js.map
 
-log/
+log/*
