@@ -17,8 +17,8 @@ const Registry = React.createClass({
         <a className="registry-item" href="http://www.crateandbarrel.com/gift-registry/gabrielle-campo-and-max-blum/r5521278">
           Crate&Barrel
         </a>
-        <a className="registry-item" href="http://www.alrcares.com/">
-          Animal Lighthouse Rescue
+        <a className="registry-item" href="http://savethechildren.org/celebrate/blampofest">
+          Save the Children
         </a>
 
         <br/>
